@@ -1,0 +1,38 @@
+.container {
+    border: 2px solid #000;
+}
+.boxes {
+    border: 2px solid red;
+    background: aqua;
+}
+.box-1 {
+    margin-bottom: 10px;
+}
+
+
+.hidden-content {
+    display: none;
+}
+.hidden-content.reveal-btn {
+    display: block;
+}
+
+
+.div2{
+    height: 400px;
+    width: 400px;
+    background: aqua;
+    border: 1px solid green;
+    margin: auto;
+}
+.div1{
+    height: 200px;
+    width: 200px;
+    background: orange;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
